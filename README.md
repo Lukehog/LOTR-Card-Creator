@@ -5,4 +5,4 @@ This is simply a way for me to add features for personal means.
 
 
 Website:
-https://github.com/Lukehog/LOTR-Card-Creator.git
+https://lukehog.github.io/LOTR-Card-Creator
