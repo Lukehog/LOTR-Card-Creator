@@ -33,9 +33,9 @@
     :root {
 
         --color-text: white;
-        --color-background1: #111;
+        --color-background1: #1d1d1d;
         --color-background2: #333;
-        --color-background3: rgba(17, 17, 17, 17.5);
+        --color-background3: #1f1f1f;
         --color-background4: #222;
 
         --color-link: #55D;
