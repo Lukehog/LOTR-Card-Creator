@@ -196,7 +196,7 @@ function initCardImageGenerator() {
         var italicSubstrings = ["[i]", "Heirloom: ", "Erbstück: ", "(This is not in the Supply.)", "Keep this until Clean-up."];
 
         function writeLineWithIconsReplacedWithSpaces(line, x, y, scale, family, boldSize) {
-            boldSize = boldSize || 64;
+            boldSize = boldSize || 700;
             context.textAlign = "left";
 
             if (italicSubstrings.some(substring => line.includes(substring))) {
