@@ -32,10 +32,11 @@ function initCardImageGenerator() {
         "%": ["VP", "white", "Victory"],
         "#": ["VP-Token", "white", "Victory"], //German VP Token (not a nice decision of ASS Altenburger, but maybe nice to have to keep the cards consistent)
         "\\$": ["Coin", "black", "Treasure"],
-        "\\*": ["Sun", "black", "Treasure"],
+        "\\&": ["Sun", "black", "Treasure"],
         "§": ["Custom Icon", "white", "Treasure"]
     };
     var iconsInPrice = icons;
+	delete iconsInPrice['\\*'];
     var normalColorFactorLists = [
 		["Action/Event", [1, 1, 1]],
 		["Treasure", [1.07, 0.95, 0.55, 0.2, 0.05, 0.05, 1.0, 1.0, 1.0, 1.2, 0.8, 0.5]],
