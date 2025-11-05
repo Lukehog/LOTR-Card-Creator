@@ -623,7 +623,7 @@ function initCardImageGenerator() {
             if (isEachColorDark[1])
                 context.fillStyle = "white";
             writeSingleLine(document.getElementById("title").value, 701, 215, previewLine ? 800 : 1180, 75);
-            if (typeLine.split(" - ").length >= 3) {
+            if (typeLine.split(" - ").length >= 3 || typeLine.split(" - ").toString().length >= 22) {
                 let types2 = typeLine.split(" - ");
                 let types1 = types2.splice(0, Math.ceil(types2.length / 2));
                 let left = priceLine ? 750 + 65 * (numberPriceIcons - 1) : 701;
