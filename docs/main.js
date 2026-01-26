@@ -33,6 +33,7 @@ function initCardImageGenerator() {
         "#": ["VP-Token", "white", "Victory"], //German VP Token (not a nice decision of ASS Altenburger, but maybe nice to have to keep the cards consistent)
         "\\$": ["Coin", "black", "Treasure"],
         "\\&": ["Sun", "black", "Treasure"],
+		"\\°": ["Ring", "black", "Treasure"],
         "§": ["Custom Icon", "white", "Treasure"]
     };
     var iconsInPrice = icons;
