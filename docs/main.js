@@ -1012,7 +1012,8 @@ function initCardImageGenerator() {
 		"TraitColorOne.png",
 		"TraitBrown.png",
 		"TraitColorOneSide.png", //30
-		"TraitBrownSide.png"
+		"TraitBrownSide.png",
+		"CardColorTwoColor.png"
 		//icons come afterwards
 	];
     for (var i = 0; i < sources.length; i++)
@@ -1071,6 +1072,7 @@ function initCardImageGenerator() {
                     recoloredImages[23] = false;
                     recoloredImages[28] = false;
                     recoloredImages[30] = false;
+					recoloredImages[32] = false;
                     recolorFactorList[imageID][i % 12] = val;
                     queueDraw();
                 }
