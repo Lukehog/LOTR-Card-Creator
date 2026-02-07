@@ -69,7 +69,8 @@ const PRECACHE_CARD_URLS = [
   'card-resources/VP.png',
   'card-resources/VP-Token.png',
   'card-resources/Sun.png',
-  'card-resources/Traveller.png'
+  'card-resources/Traveller.png',
+  'card-resources/CardColorTwoColor.png'
 ];
 
 // The install handler takes care of precaching the resources we always need.
